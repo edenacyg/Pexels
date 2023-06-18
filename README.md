@@ -20,6 +20,7 @@ A cloned web application that aims to provide a valuable resource for anyone see
     <li>React Bootstrap</li>
     <li>React JS</li>
     <li>Express JS</li>
+    <li>Node JS</li>
     <li>Ant Design</li>
     <li>Pexels API</li>
 </ul>
