@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=PlusJakartaSans&display=swap');
+:root {
+    --main-color:#05a081;
+	--text-color1: #2c343e;
+	--text-color2: #fff;
+    --text-hover1:rgb(226, 226, 226);
+	--font-size1: 16px;
+	--footer-color: #000000;
+}
+
+body {
+	margin: 0;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+code {
+	font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.btn-primary {
+    color: var(--text-color2);
+    background-color: var(--footer-color);
+    border-color: var(--footer-color);
+}
+
+.btn-primary:hover {
+	border-color: var(--text-color2);
+	color: #000;
+	background-color: var(--text-color2);
+}
+
+.header_section {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	background-color: #00000014;
+}
+
+.header_account_dropdown {
+    background-color: #ffffff00 !important;
+	border: 0;
+}
+
+.navh {
+    color: var(--text-color2) !important;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	padding: 0px 10px;
+}
+
+.nav-link:hover {
+	color: var(--text-hover1) !important;
+}
+  
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(49, 131, 253, 0);
+	background-color: #0a57ca00;
+}
+
+.nav_menu {
+	display: flex;
+}
+
+button.navh_join.btn.btn-primary {
+    color: var(--text-color2);
+	background-color: var(--main-color);
+	border-color: var(--main-color);
+}
+
+button.navh_join.btn.btn-primary:hover {
+    color: white !important;
+	background-color: var(--footer-color);
+	border-color: var(--footer-color);
+}
+
+@media (max-width: 768px) {
+	.navbar-nav {
+	  flex-direction: row !important;
+	  align-items: stretch;
+	  margin-top: 1rem;
+	}
+	.navbar-nav .nav-link {
+	  padding: .5rem 0;
+	  border-bottom: 1px solid rgba(0,0,0,.2);
+	}
+	.navbar-nav .dropdown-menu {
+	  position: static;
+	  float: none;
+	  width: auto;
+	  margin-top: 0;
+	  background-color:white;
+	  border: 0;
+	  box-shadow: none;
+	}
+	.navbar-toggler {
+	  margin-left: 0 !important;
+	}
+    
+    nav.header_section.navbar.navbar-expand-md.navbar-light {
+        padding: 30px;
+    }
+}
+

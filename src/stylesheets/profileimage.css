@@ -1,0 +1,22 @@
+.profile_main {
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 150px;
+  }
+  
+  h1 {
+    margin-top: 10px;
+  }
+  
+  .profile_image_wrapper > img {
+    border-radius: 1000px;
+    height: 10rem;
+    width: 10rem;
+    object-fit: cover;
+}
+
+.profile_info_wrapper {
+  margin-bottom: 2em;
+}

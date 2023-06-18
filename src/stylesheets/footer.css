@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=PlusJakartaSans&display=swap');
+:root {
+    --main-color:#05a081;
+	--text-color1: #2b2b2b;
+	--text-color2: #fff;
+	--text-hover1:rgb(226, 226, 226);
+	--font-size1: 16px;
+    --footer-color: #000000;
+}
+
+.footer {
+    background-color: var(--footer-color);
+    color: var(--text-color2);
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 0px 15px 0px; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}

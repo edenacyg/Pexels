@@ -1,0 +1,36 @@
+.login_container {
+    position: relative; /* Make the container a positioned element */
+    background-image: url('/public/images/onboardingImage.JPG');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  
+  .overlay {
+    position: absolute; /* Make the overlay element positioned */
+    top: 0; /* Position the element at the top of the container */
+    left: 0; /* Position the element at the left of the container */
+    right: 0; /* Position the element at the right of the container */
+    bottom: 0; /* Position the element at the bottom of the container */
+    z-index: 1; /* Set the z-index to be higher than the container */
+    background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent black background */
+  }
+
+  .login_form_wrapper {
+    z-index: 9;
+    background-color: white;
+    padding: 0px 30px 50px 30px;
+    border-radius: 10px;
+}
+
+form.login_form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1600px) {
+	.login_container {
+    background-size: cover;
+    background-position: top;
+  }
+}

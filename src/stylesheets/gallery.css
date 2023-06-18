@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+    --main-color:#05a081;
+    --text-color1: #2b2b2b;
+	--text-color2: #fff;
+    --text-hover1:rgb(226, 226, 226);
+	--font-size1: 20px;
+    --h1-lg: 1.6rem;
+    --h1-sm: 1.4rem;
+    --h1-min: 1rem;
+}
+
+h5 {
+    margin: 0;
+}
+
+
+  .gallery_header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10px 20px 10px;
+    align-items: center;
+}
+  
+.gallery_right {
+  display: flex;
+  align-items: center;
+}
+
+  section.image_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .image_wrapper {
+    width: calc(33.33% - 1rem);
+    margin-bottom: 1rem;
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(100% / 2.5); /* 1.5 is the aspect ratio of the image */
+    background-position: center;
+    background-size: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .image_wrapper {
+      width: calc(50% - 1rem);
+      padding-top: calc(100% / 2.2); /* 1.2 is the aspect ratio of the image for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .image_wrapper {
+        margin: .5rem .8rem;
+      width: 100%;
+      padding-top: calc(100% / 1.2); /* 1.2 is the aspect ratio of the image for smaller screens */
+    }
+  }
+  
+  

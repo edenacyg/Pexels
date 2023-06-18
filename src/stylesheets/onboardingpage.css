@@ -1,0 +1,27 @@
+.onboarding_content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+}
+
+@media (min-width: 769px) {
+	div#join_form {
+        width: 27% !important;
+    }
+
+    .form_container h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+	div#join_form {
+        min-width: 70%;
+    }
+
+    .form_container h1 {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+    --main-color:#05a081;
+	--text-color1: #2c343e;
+	--text-color2: #fff;
+    --text-hover1:rgb(226, 226, 226);
+    --button-hover-dark: #202020;
+	--font-size1: 20px;
+    --h1-lg: 1.6rem;
+    --h1-sm: 1.4rem;
+}
+
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+code {
+	font-family: 'Poppins', sans-serif;
+}
+
+.profile_gallery_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.profile_gallery_btn {
+    display: flex;
+}
+
+.profile_gallery_btn button {
+    margin-left: 10px;
+}
+
+.mylight a.nav-link {
+    display: flex;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 100px;
+    padding: 0.6rem 1rem !important;
+    align-items: center;
+}
+
+.mylight a.nav-link:hover {
+    background-color: var(--button-hover-dark);
+}
+
+.mylight .active {
+    background-color: var(--button-hover-dark);
+  }
+
+  a.profile_nav.nav-link.active {
+    color: white !important;
+    font-weight: 300px !important;
+}
+  
+.nav-link-icon {
+    display: inline-block;
+    margin-right: 5px;
+  }
+
+  .profile_gallery{
+    padding: 20px 0 50px 0;
+  }
+
+  .loader {
+    text-align: center;
+    padding: 2rem;
+}
+
+  @media (max-width: 1000.98px) {
+    .mylight a.nav-link {
+      font-size: 0;
+    }
+    .mylight a.nav-link svg {
+      font-size: 18px;
+    }
+
+    .navbar-nav {
+        margin-top: 0rem;
+    }
+  }
+  

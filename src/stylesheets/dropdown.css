@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+    --main-color:#05a081;
+	--text-color1: #6a7179;
+	--text-color2: #fff;
+    --text-hover1:rgb(226, 226, 226);
+	--font-size1: 20px;
+    --h1-lg: 1.6rem;
+    --h1-sm: 1.4rem;
+    --h1-min: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+:where(.css-dev-only-do-not-override-htwhyh).ant-btn-default:not(:disabled):hover {
+    color: var(--text-color1);
+    border-color:var(--text-color1);
+}
+
+a:hover {
+    color: var(--text-color1);
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=PlusJakartaSans&display=swap');
+:root {
+    --main-color:#05a081;
+	--text-color1: #111111;
+	--text-color2: #fff;
+	--text-hover1:rgb(226, 226, 226);
+	--font-size1: 16px;
+	--footer-color: #000000;
+}
+
+body {
+	margin: 0;
+	font-family: 'Plus Jakarta Sans', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: var(--font-size1);
+}
+
+code {
+	font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.search_bar input {
+	border-radius: 10px 0px 0px 10px;
+    padding: 10px 20px;
+    border-color: var(--text-color2);
+    border-width: 0px;
+    border-style: none;
+	width: 100%;
+}
+
+.btn-dark {
+    color: #303030;
+    background-color: var(--text-color2);
+    border-color: var(--text-color2);
+	border-radius: 0px 10px 10px 0px;
+	border-left: 1px solid var(--text-hover1);
+}
+
+.btn-success{
+    color: var(--text-color1);
+    background-color: #00000000;
+    border-color: var(--footer-color);
+}
+
+.btn-success:hover, button.btn.btn-primary:hover {
+	color: rgb(190, 190, 190);
+background-color: var(--text-color1);
+border-color: var(--text-color1);
+}
+
+.btn-check:active+.btn-success, .btn-check:checked+.btn-success, .btn-success.active, .btn-success:active, .show>.btn-success.dropdown-toggle{
+	color: #fff;
+	background-color: var(--footer-color);
+	border-color: #13653f00;
+}
+
+.btn-check:active+.btn-success:focus, .btn-check:checked+.btn-success:focus, .btn-success.active:focus, .btn-success:active:focus, .show>.btn-success.dropdown-toggle:focus {
+    box-shadow: none !important;
+}
+
+.btn-check:focus+.btn-success, .btn-success:focus {
+    color: #fff;
+	background-color: var(--text-color1);
+	border-color: #13653f00;
+    box-shadow: none;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    color: var(--footer-color) !important;
+	background-color: #bdbdbd45;
+    border-color: #0a57ca00;
+    box-shadow: 0 0 0 0.25rem rgba(49, 131, 253, 0);
+}
+
+.profile_page, .photographer_page {
+	padding-bottom: 20rem;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--main-color);
+}
+
+@media (min-width: 1200px) {
+	.container, .container-lg, .container-md, .container-sm, .container-xl {
+		padding: 5px;
+		width: 100% !important;
+		min-width: 80%;
+		font-size: var(--font-size1);
+	}
+
+	.profile_page, .photographer_page {
+		padding-bottom: 5rem;
+	}
+}
