@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Pexels
+A cloned web application that aims to provide a valuable resource for anyone seeking high-quality stock photos and videos for their personal or commercial projects. Its user-friendly interface, vast library of content, and CC0 licensing make it a top choice for designers, marketers, bloggers, and content creators.  If you see a photo or video you like, simply download it for free.
+<h2>📃 Features: </h2>
+<ol type="1">
+    <li>Allow users to search for photos, videos, or illustrations based on keywords.</li>
+    <li>Infinite scrolling that continuously load more content as the user scrolls down the page.</li>
+    <li>Allow users to browse content by categories such as nature, business, food, etc.</li>
+    <li>Displays popular photos and videos on the site based on user engagement and views.</li>
+    <li>Users can download images with different size with or without acccount.</li>
+    <li>Allow users to do basic editing.</li>
+    <li>User Login/Signup: Allow users to create and log in to their accounts, like and edit photos.</li>
+    <li>User Profile: Displays the user's profile information, and other relevant details.</li>
+    <li>Mobile-Responsive Design.</li>
+</ol>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>🛠 Tools used: </h2>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>React Bootstrap</li>
+    <li>React JS</li>
+    <li>Express JS</li>
+    <li>Ant Design</li>
+    <li>Pexels API</li>
+</ul>
 
-## Available Scripts
+<h2>💡 What I learned: </h2>
+<ul>
+    <li>Implemented state passing between different React components, both from parent to child and vice versa.</li>
+    <li>API request and response.</li>
+    <li>The efficiency of using Ant Design.</li>
+</ul>
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2>🌱 Areas for improvement: </h2>
+<ul>
+    <li>Optimize api response time.</li>
+</ul>
