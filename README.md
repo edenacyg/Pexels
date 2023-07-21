@@ -3,10 +3,10 @@ A cloned web application that aims to provide a valuable resource for anyone see
 <h2>📃 Features: </h2>
 <ol type="1">
     <li>Allow users to search for photos, videos, or illustrations based on keywords.</li>
-    <li>Infinite scrolling that continuously load more content as the user scrolls down the page.</li>
+    <li>Infinite scrolling that continuously loads more content as the user scrolls down the page.</li>
     <li>Allow users to browse content by categories such as nature, business, food, etc.</li>
     <li>Displays popular photos and videos on the site based on user engagement and views.</li>
-    <li>Users can download images with different size with or without acccount.</li>
+    <li>Users can download images with different sizes with or without an account.</li>
     <li>Allow users to do basic editing.</li>
     <li>User Login/Signup: Allow users to create and log in to their accounts, like and edit photos.</li>
     <li>User Profile: Displays the user's profile information, and other relevant details.</li>
